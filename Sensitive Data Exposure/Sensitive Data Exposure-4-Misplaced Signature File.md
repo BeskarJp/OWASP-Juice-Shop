@@ -31,9 +31,9 @@
 
 In the application, when `f12` is pressed, you can access the main.js file in the Sources. You can find the information that there is a path to a directory named ftp. In this directory, you can find multiples files not accessible because of their type. The server enforces a restriction on file extensions (.png,  .jpg, ...) to ensure only images are accessed.
 
-![[images/ftp_folder.png]]
+![[../images/ftp_folder.png]]
 
-![[images/ftp_error.png]]
+![[../images/ftp_error.png]]
 
 **Step 2 : Access Restriction Bypass**
 
