@@ -1,8 +1,8 @@
-## [Sensitive Data Exposure] - [Login Amy]
+## [Sensitive Data Exposure] - [Login Bender]
 
 ## General Information
 
-* **Difficulty Level :** ⭐⭐⭐⭐ / 6
+* **Difficulty Level :** ⭐⭐⭐ / 6
 
 * **Date of Resolution :** 25-03-2026
 
