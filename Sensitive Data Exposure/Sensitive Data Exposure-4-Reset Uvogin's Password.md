@@ -67,6 +67,8 @@ We now have the answer to his security question and are now able to reset his pa
 
 #### Security Best Practices
 
-- A07:2021-Identification and Authentication Failures → Strengthen authentication mechanisms
-- A02:2021-Cryptographic Failures → Use secure reset tokens instead of static answers
-- A04:2021-Insecure Design → Avoid predictable security questions
+  - A07:2021-Identification and Authentication Failures → Strengthen authentication mechanisms
+
+  - A02:2021-Cryptographic Failures → Use secure reset tokens instead of static answers
+
+  - A04:2021-Insecure Design → Avoid predictable security questions
