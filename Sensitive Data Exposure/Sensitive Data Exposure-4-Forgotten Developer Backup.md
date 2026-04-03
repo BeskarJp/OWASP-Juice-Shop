@@ -27,7 +27,7 @@
 
 #### 2. Reproduction Steps
 
-**Step 1 : Directory Discovery
+**Step 1 : Directory Discovery**
 
 In the application, when `f12` is pressed, you can access the main.js file in the Sources. You can find the information that there is a path to a directory named ftp. In this directory, you can find multiples files not accessible because of their type. The server enforces a restriction on file extensions (.png,  .jpg, ...) to ensure only images are accessed.
 
