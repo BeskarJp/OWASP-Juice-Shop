@@ -14,7 +14,7 @@
 
 * **Affected Components :** API Endpoint (`/rest/user/whoami`)
 
-* **Severity  :** <span style="color:red"> Hight </span>
+* **Severity  :** <span style="color:red"> High </span>
 
 ---
 

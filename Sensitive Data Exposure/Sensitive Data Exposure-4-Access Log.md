@@ -14,7 +14,7 @@
 
 * **Affected Components :** Server-side Log Directory (`/support/logs`)
 
-* **Severity  :** <span style="color:red"> Hight </span>
+* **Severity  :** <span style="color:red"> High </span>
 
 ---
 

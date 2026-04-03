@@ -14,7 +14,7 @@
 
 * **Affected Components :** Hidden Premium URL (`/this/page/is/hidden/...`) and Key Directory (`/encryptionkeys`)
 
-* **Severity  :** <span style="color:red"> Hight </span>
+* **Severity  :** <span style="color:red"> High </span>
 
 ---
 
@@ -63,7 +63,7 @@ Operation : `AES Decrypt`
 
 **Step 5 : Accessing the Premium Content**
 
-By navigating to the decrypted path : `http://localhost:3000/this/page/is/hidden/behind/an/incredibly/high/paywall/that/could/only/be/unlocked/by/sending/1btc/to/us`. The server validates the access.
+By navigating to the decrypted path : `https://ctf.juice.cyber.epitest.eu/this/page/is/hidden/behind/an/incredibly/high/paywall/that/could/only/be/unlocked/by/sending/1btc/to/us`. The server validates the access.
 
 ---
 
