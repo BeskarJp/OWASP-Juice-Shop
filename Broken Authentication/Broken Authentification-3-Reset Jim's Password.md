@@ -33,11 +33,11 @@ The challenge implies that `Jim` is a celebrity whose personal details are publi
 
 **Step 2 : Analyzing the Security Question**
 
-When attempting to reset the password for `jim@juice-sh.op`, the application prompts with the following question : `Your eldest siblings middle name ?`
+When attempting to reset the password for `jim@juice-sh.op`, the application prompts with the following question: `Your eldest sibling's middle name?`
 
 **Step 3 : Information Gathering and Testing**
 
-Researching James Tiberius Kirk's family reveals he has an older brother named `George Samuel Kirk`. We will try all names with Repeater of Burp Suite until we have `200 OK` Request.
+Researching James Tiberius Kirk's family reveals he has an older brother named `George Samuel Kirk`. We tried all names using Burp Suite's Repeater until we received a `200 OK` response.
 
 **Step 4 : Reconstructing the Final Request**
 

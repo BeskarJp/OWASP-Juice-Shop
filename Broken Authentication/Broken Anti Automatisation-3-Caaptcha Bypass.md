@@ -41,11 +41,11 @@ Instead of using automated tools like Burp Suite or Python scripts, this vulnera
 
 **Step 4 : Response Analysis**
 
-The server returns a `HTTP/2 200 OK` response containing the JSON content. The file contains some words in Klingon, confirming the successful exploitation :
+The server returns a `HTTP/2 200 OK` response confirming the feedback submission. By reusing the same CAPTCHA, multiple submissions are allowed, bypassing the anti-spam mechanism.
 
    1. Open the feedback form.
    2. Solve the CAPTCHA
-   3. In coordination with a team mate, spam the "Submit" button repeatedly using the same validated CAPTCHA answer.
+   3. In coordination with a teammate, spam the "Submit" button repeatedly using the same validated CAPTCHA answer.
    4. By submitting more than 10 feedback entries within a 20-second window, the anti-automation threshold is crossed.
 
 ---
@@ -68,7 +68,7 @@ The server returns a `HTTP/2 200 OK` response containing the JSON content. The f
 
 #### Recommended Fixes
 
-   - Replace the simple math-based CAPTCHA with more robust solutions, which use behavioral analysis to detect bots.
+   - Replace the simple math-based CAPTCHA with more robust solutions that use behavioral analysis to detect bots.
 
 #### Security Best Practices
 

@@ -29,18 +29,18 @@
 
 **Step 1 : Initial Observation**
 
-The application supports multiple languages by fetching specific JSON files from the `/assets/i18n/` directory. Standard files like `en_GB.json` or `fr_FR.json` are called when the user changes the language of the Web Site.
+The application supports multiple languages by fetching specific JSON files from the `/assets/i18n/` directory. Standard files like `en_GB.json` or `fr_FR.json` are called when the user changes the language of the website.
 
 **Step 2 : Fuzzing & Discovery**
 
-By doing a fuzzing attack on the `/assets/i18n/` directory or used all ISO language :
+By performing a fuzzing attack on the `/assets/i18n/` directory or using all ISO languages:
 
 ``` bash
 ffuf -u http://172.17.0.2:3000/assets/i18n/FUZZ -w iso-639-x.txt
 ffuf -u http://172.17.0.2:3000/assets/i18n/tlh_FUZZ.json -w letters.txt
 ```
 
-After that, an unlisted file is discovered: **`tlh_AA.json`** (Klingon). This file is not available in the language selection drop down menu.
+After that, an unlisted file was discovered: **`tlh_AA.json`** (Klingon). This file is not available in the language selection drop-down menu.
 
 **Step 3 : Traffic Manipulation**
 
@@ -72,9 +72,9 @@ The server returns a `HTTP/2 200 OK` response containing the JSON content. The f
 
 ## Risk Assessment
 
-* **Business Impact :** Low in a standard production environment but reveals a risk in resource management. In other scenarios, this could lead to the discovery of hidden features or sensitive misconfiguration files.
+* **Business Impact :** Low in a standard production environment, but it reveals a risk in resource management. In other scenarios, this could lead to the discovery of hidden features or sensitive misconfiguration files.
 
-* **Technical Description of the Impact :** The lack of restrictions on static file access within the assets directory allows to discover resources that were not intended to be public. This is a form of unauthorized enumeration of unprotected resources.
+* **Technical Description of the Impact :** The lack of restrictions on static file access within the assets directory allows the discovery of resources that were not intended to be public. This is a form of unauthorized enumeration of unprotected resources.
 
 ---
 

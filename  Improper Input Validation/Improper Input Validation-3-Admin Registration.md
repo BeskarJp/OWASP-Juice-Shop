@@ -26,7 +26,7 @@
 
 **Step 1 : Endpoint Identification**
 
-Navigate to the registration page `#/register` and fill in the standard informations (email, password, security question).
+Navigate to the registration page `#/register` and fill in the standard information (email, password, security question).
 
 **Step 2 : Traffic Interception**
 
@@ -72,7 +72,7 @@ Host: ctf.juice.cyber.epitest.eu
 
 **Step 4 : Privilege Escalation Confirmation**
 
-The server returns a `HTTP/2 201 Created` response containing the body which confirms that the role has been successfully assigned as admin.
+The server returns a `HTTP/2 201 Created` response containing the body that confirms the role has been successfully assigned as 'admin'.
 
 ```JSON
 {

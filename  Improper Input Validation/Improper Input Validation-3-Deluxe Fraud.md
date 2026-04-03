@@ -43,7 +43,7 @@ The request contains a JSON body similar to this :
 }
 ```
 
-The application uses these IDs to check a valid payment method was selected and processed.
+The application uses these IDs to check that a valid payment method was selected and processed.
 
 **Step 4 : Privilege Escalation Confirmation**
 
@@ -76,7 +76,7 @@ The server accepts the `none` payment mode as a valid bypass, likely due to a sw
 
    - Never trust the "Success" state or "Payment Mode" sent from the client. The server must verify the transaction with the payment provider's API directly.
 
-   - Use a strict "Allowlist" for payment modes. If the input doesn't match a valid, active payment method, the request should be rejected immediately.
+   - Use a strict "Allow-List" for payment modes. If the input doesn't match a valid, active payment method, the request should be rejected immediately.
 
 #### Recommended Fixes
 
