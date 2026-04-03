@@ -37,11 +37,11 @@ In Burp Suite, examine the `POST` request. It is observed that the application e
 
 ```JSON
 {
-  "UserId": 3,
-  "captchaId": 8,
+  "UserId": 8,
+  "captchaId": 12,
   "captcha": "4",
   "comment": "test",
-  "rating": 1
+  "rating": 4
 }
 ```
 
