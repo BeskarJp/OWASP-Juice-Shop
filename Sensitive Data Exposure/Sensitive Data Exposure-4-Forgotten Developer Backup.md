@@ -43,6 +43,21 @@ To bypass this restriction, we will use the Null Byte Injection method. For this
 https://ctf.juice.cyber.epitest.eu/ftp/package.json.bak%2500.md
 ```
 
+**Step 3 : Sensitive Data Exposure
+
+The server return the content of the backup file:
+
+``` JSON
+{
+  "name": "juice-shop",
+  "version": ...
+  ...
+}
+```
+
+This file may contain sensitive information such as dependencies, internal configurations, or hidden endpoints.
+
+---
 ## Risk Assessment
 
 * **Business Impact :** Exposure of backup files can reveal internal application structure, dependencies, and potentially sensitive configuration data. This information can be leveraged to identify further vulnerabilities or plan targeted attacks.
