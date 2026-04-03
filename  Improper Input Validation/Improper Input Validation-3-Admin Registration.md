@@ -93,7 +93,7 @@ The server returns a `HTTP/2 201 Created` response containing the body which con
 
 * **Business Impact :** Full administrative takeover. An attacker can access the administration panel, manage all users, access sensitive logs, and potentially dump the user database, leading to a massive data breach.
 
-* **Technical Description of the Impact :** This is a Mass Assignment vulnerability. The backend ORM (Object-Relational Mapping) automatically maps every key in the JSON request to the corresponding column in the database. Since the application does not "allow-list" the writable fields, any database column can be modified by the user during account creation.
+* **Technical Description of the Impact :** The backend ORM (Object-Relational Mapping) automatically maps every key in the JSON request to the corresponding column in the database. Since the application does not "allow-list" the writable fields, any database column can be modified by the user during account creation.
 
 ---
 
