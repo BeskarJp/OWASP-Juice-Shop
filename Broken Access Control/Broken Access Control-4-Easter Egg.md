@@ -78,15 +78,19 @@ Good luck, egg hunter!
 #### Mitigation Strategies
 
    - Restrict access to sensitive directories like `/ftp`
+
    - Block null byte injection patterns (`%00`, `%2500`)
 
 #### Recommended Fixes
 
    - Implement proper access control on all directories
+
    - Validate and sanitize user input after full decoding
+
    - Disable directory listing on sensitive paths
 
 #### Security Best Practices
 
-- A05:2021-Security Misconfiguration -> Disable directory listing and protect sensitive paths
-- A03:2021-Injection -> Sanitize all inputs
+  - A05:2021-Security Misconfiguration -> Disable directory listing and protect sensitive paths
+
+  - A03:2021-Injection -> Sanitize all inputs

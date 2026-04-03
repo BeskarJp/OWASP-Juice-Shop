@@ -78,18 +78,25 @@ This confirms access to internal business data not intended for public exposure.
 #### Mitigation Strategies
 
    - Remove or secure publicly accessible backup files
+
    - Restrict access to sensitive directories like `/ftp`
+
    - Block null byte injection patterns (`%00`, `%2500`)
 
 #### Recommended Fixes
 
    - Never expose backup or temporary files in production
+
    - Implement proper access control on all directories
+
    - Validate and sanitize user input after full decoding
+
    - Disable directory listing on sensitive paths
 
 #### Security Best Practices
 
-- A02:2021-Cryptographic Failures -> Avoid leaking sensitive configuration data
-- A05:2021-Security Misconfiguration -> Disable directory listing and protect sensitive paths
-- A03:2021-Injection -> Sanitize all inputs
+  - A02:2021-Cryptographic Failures -> Avoid leaking sensitive configuration data
+
+  - A05:2021-Security Misconfiguration -> Disable directory listing and protect sensitive paths
+
+  - A03:2021-Injection -> Sanitize all inputs

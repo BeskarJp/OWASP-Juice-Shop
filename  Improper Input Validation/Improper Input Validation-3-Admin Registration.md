@@ -26,7 +26,7 @@
 
 **Step 1 : Endpoint Identification**
 
-Navigate to the registration page `#/register` and fill in the standard information (email, password, security question).
+Navigate to the registration page `/register` and fill in the standard information (email, password, security question).
 
 **Step 2 : Traffic Interception**
 

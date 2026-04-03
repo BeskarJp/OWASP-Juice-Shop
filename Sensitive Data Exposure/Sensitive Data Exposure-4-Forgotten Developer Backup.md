@@ -88,6 +88,8 @@ This file may contain sensitive information such as dependencies, internal confi
 
 #### Security Best Practices
 
-- A02:2021-Cryptographic Failures -> Avoid leaking sensitive configuration data
-- A05:2021-Security Misconfiguration -> Disable directory listing and protect sensitive paths
-- A03:2021-Injection -> Sanitize all inputs
+  - A02:2021-Cryptographic Failures -> Avoid leaking sensitive configuration data
+
+  - A05:2021-Security Misconfiguration -> Disable directory listing and protect sensitive paths
+
+  - A03:2021-Injection -> Sanitize all inputs

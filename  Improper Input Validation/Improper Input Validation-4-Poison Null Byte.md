@@ -60,18 +60,27 @@ The application fails to properly sanitize user input and incorrectly handles en
 
 #### Mitigation Strategies
 
-* Reject any input containing encoded null bytes (`%00`, `%2500`, etc)
-* Fully decode user input before validation
-* Enforce strict allowlists for file access
+  - Reject any input containing encoded null bytes (`%00`, `%2500`, etc)
+
+  - Fully decode user input before validation
+
+  - Enforce strict allowlists for file access
+
 
 #### Recommended Fixes
-* Perform validation after full decoding of user input
-* Use secure file handling mechanisms that do not rely on string temination
-* Avoid direct use of user input in file paths
-* Implement proper path normalization to prevent traversal (`../`)
+
+  - Perform validation after full decoding of user input
+
+  - Use secure file handling mechanisms that do not rely on string temination
+
+  - Avoid direct use of user input in file paths
+
+  - Implement proper path normalization to prevent traversal (`../`)
 
 #### Security Best Practices
 
-* A03:2021-Injection -> Always validate and sanitize user input
-* A05:2021-Security Misconfiguration -> Avoid unsafe file handling mechanisms
-* A04:2021-Insecure Design -> Never trust client-controlled file paths
+  - A03:2021-Injection -> Always validate and sanitize user input
+
+  - A05:2021-Security Misconfiguration -> Avoid unsafe file handling mechanisms
+
+  - A04:2021-Insecure Design -> Never trust client-controlled file paths

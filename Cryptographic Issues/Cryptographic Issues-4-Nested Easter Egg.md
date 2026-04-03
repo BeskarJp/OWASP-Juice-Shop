@@ -88,14 +88,17 @@ The decoded string can be appended to the base application URL, which reveal a h
 #### Mitigation Strategies
 
    - Avoid using encoding as a security mechanism
+
    - Do not rely on reversible transformations to hide sensitive data
 
 #### Recommended Fixes
 
    - Use strong encryption instead of encoding when confidentiality is required
+
    - Ensure hidden features do not expose meaningful internal data
 
 #### Security Best Practices
 
-- A02:2021-Cryptographic Failures → Encoding ≠ Security
-- A04:2021-Insecure Design → Avoid hidden logic in production
+  - A02:2021-Cryptographic Failures → Encoding ≠ Security
+
+  - A04:2021-Insecure Design → Avoid hidden logic in production

@@ -66,6 +66,8 @@ By using Burp Suite, you can bypass this restriction. A request is triggered by 
 
 #### Security Best Practices
 
-- A04:2021-Insecure Design  -> Do not rely on frontend restrictions
-- A01:2021-Broken Access Control -> Enforce user action limits
-- A05:2021-Security Misconfiguration -> Implement proper request controls
+  - A04:2021-Insecure Design  -> Do not rely on frontend restrictions
+
+  - A01:2021-Broken Access Control -> Enforce user action limits
+
+  - A05:2021-Security Misconfiguration -> Implement proper request controls
