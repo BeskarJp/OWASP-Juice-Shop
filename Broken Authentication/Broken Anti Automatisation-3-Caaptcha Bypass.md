@@ -69,3 +69,9 @@ The server returns a `HTTP/2 200 OK` response containing the JSON content. The f
 #### Recommended Fixes
 
    - Replace the simple math-based CAPTCHA with more robust solutions, which use behavioral analysis to detect bots.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Implement secure CAPTCHA validation
+
+  - A03:2021-Injection -> Prevent reuse of security tokens

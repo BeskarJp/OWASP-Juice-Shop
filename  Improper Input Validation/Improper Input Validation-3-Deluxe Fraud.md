@@ -81,3 +81,11 @@ The server accepts the `none` payment mode as a valid bypass, likely due to a sw
 #### Recommended Fixes
 
    - Use secure webhooks from payment gateways to update user membership status only after the payment provider confirms the capture of funds.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Verify payment transactions with secure methods
+
+  - A05:2021-Security Misconfiguration -> Implement allow-list validation for payment modes
+
+  - A03:2021-Injection -> Prevent tampering with payment parameters

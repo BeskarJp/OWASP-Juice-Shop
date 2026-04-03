@@ -76,3 +76,9 @@ The server returns a 200 OK status along with the user’s details (ID: 2, role:
 #### Recommended Fixes
 
    - Replace security questions with a time-sensitive reset tokens sent via email or SMS.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Implement secure password reset with tokens
+
+  - A05:2021-Security Misconfiguration -> Avoid security questions based on public information

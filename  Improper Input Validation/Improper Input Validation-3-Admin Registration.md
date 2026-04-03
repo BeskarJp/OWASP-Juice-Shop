@@ -110,3 +110,11 @@ The server returns a `HTTP/2 201 Created` response containing the body which con
    - Explicitly set the role to "customer" in the backend logic, regardless of what is sent in the HTTP request.
 
    - Use features like "sanitized attributes" for sensitive columns like role, isAdmin or permissions.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Secure user role assignments
+
+  - A05:2021-Security Misconfiguration -> Implement allow-list validation for input fields
+
+  - A03:2021-Injection -> Prevent mass assignment attacks

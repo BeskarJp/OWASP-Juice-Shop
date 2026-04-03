@@ -75,3 +75,9 @@ Login as amy `amy@juice-sh.op` with the password `K1f.....................`. It'
    - Multi-Factor Authentication prevents a login even if the attacker guesses the password.
 
    - Explain to users doing that weak password with symbols does not make it secure.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Use strong password hashing algorithms
+
+  - A05:2021-Security Misconfiguration -> Enforce password complexity and length requirements

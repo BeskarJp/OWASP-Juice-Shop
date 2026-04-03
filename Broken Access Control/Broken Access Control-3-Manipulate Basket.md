@@ -80,3 +80,9 @@ The server returned a `200 OK`. The response body confirmed that the item (`Prod
 #### Recommended Fixes
 
    - Configure a web server to handle multiple parameters with the same name, either by rejecting the request or by only considering the first validated instance.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Ensure data integrity in user basket operations
+
+  - A05:2021-Security Misconfiguration -> Validate all input parameters and reject duplicates

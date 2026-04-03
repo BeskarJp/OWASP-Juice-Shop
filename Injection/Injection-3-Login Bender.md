@@ -56,3 +56,9 @@ The objective is to reset the password for Bender. Navigating to the `Forgot Pas
    - Replace security questions with cryptographically secure, time-limited reset tokens sent via email.
 
    - If security questions must be used, allow users to create their own unique questions and answers.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Use secure password reset tokens instead of security questions
+
+  - A05:2021-Security Misconfiguration -> Avoid security questions with publicly known answers

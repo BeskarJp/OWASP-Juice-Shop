@@ -104,3 +104,9 @@ The server returns a `HTTP/2 200 OK` response, but the body is no longer raw JSO
    - Move away from JSONP: Use standard JSON (Content-Type: application/json) and modern CORS (Cross-Origin Resource Sharing) headers.
 
    - Configure Access-Control-Allow-Origin to permit only trusted domains instead of allowing cross-domain script execution via padding.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Do not expose sensitive user data in API responses
+
+  - A05:2021-Security Misconfiguration -> Require authentication for sensitive API endpoints

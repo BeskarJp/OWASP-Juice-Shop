@@ -73,3 +73,9 @@ We select the file `access.log.2026-04-02`. The server allows the download witho
    - Move log files to a secure location outside the public folder in web.
 
    - Use a dedicated, authenticated logging platform rather than exposing flat files via a web interface.
+
+#### Security Best Practices
+
+  - A05:2021-Security Misconfiguration -> Disable directory listing and protect log directories
+
+  - A03:2021-Injection -> Sanitize data before logging

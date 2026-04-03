@@ -70,3 +70,11 @@ To exploit this and "inform the shop" as required by the challenge :
    - Any exposed key must be immediately invalidated and rotated on the respective service.
 
    - Use tools like `git-filter-repo` to permanently purge the key from the entire repository history.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Do not hardcode sensitive API keys in source code
+
+  - A05:2021-Security Misconfiguration -> Use environment variables for secrets and exclude them from version control
+
+  - A03:2021-Injection -> Prevent injection of secrets into publicly accessible code

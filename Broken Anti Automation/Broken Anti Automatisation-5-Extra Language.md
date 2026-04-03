@@ -91,3 +91,11 @@ The server returns a `HTTP/2 200 OK` response containing the JSON content. The f
    - Configure the web server to disable directory listing and strictly limit access to necessary files.
 
    - Implement a CI/CD pipeline that filters out non-essential assets before deploying to the production environment.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Protect sensitive assets from unauthorized access
+
+  - A05:2021-Security Misconfiguration -> Disable directory listing and restrict access to language files
+
+  - A03:2021-Injection -> Prevent path manipulation to hidden resources

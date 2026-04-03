@@ -84,3 +84,9 @@ By navigating to the decrypted path : `https://ctf.juice.cyber.epitest.eu/this/p
 #### Recommended Fixes
 
    - Use a dedicated, authenticated logging platform rather than exposing flat files via a web interface.
+
+#### Security Best Practices
+
+  - A02:2021-Cryptographic Failures -> Store encryption keys securely outside public directories
+
+  - A05:2021-Security Misconfiguration -> Disable access to sensitive key directories
