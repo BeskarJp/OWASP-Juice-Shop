@@ -116,5 +116,3 @@ Chaque fichier de documentation (`.md`) suit une structure rigoureuse répondant
 ## ⚠️ Avertissement / Disclaimer
 
 Ce dépôt est publié dans un cadre strictement pédagogique et de démonstration de compétences. Les solutions présentées ont été élaborées dans un environnement d'entraînement fermé et autorisé (*OWASP Juice Shop*).
-
-```
