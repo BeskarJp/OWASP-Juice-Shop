@@ -1,7 +1,7 @@
-# 🏆 Hack & Juice — Epitech Cyber Project (OWASP Juice Shop)
+# Hack & Juice — Cybersecurity Project (OWASP Juice Shop)
 
 
-## 📌 Présentation du Projet
+## Présentation du Projet
 
 **Hack & Juice** est un projet de cybersécurité (module `G-SEC-200`) proposé par **Epitech** basé sur l'application vulnérable **OWASP Juice Shop**. L'objectif était de réaliser le pentest d'une application web moderne, d'identifier ses vulnérabilités et de rédiger une documentation technique complète pour chaque faille exploitée.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## ⏱️ Contexte & Challenge Temporel
+## Contexte & Challenge Temporel
 
 * **Durée du projet :** 2 semaines.
 * **Format :** CTF (Capture The Flag) avec environnement dédié par équipe.
@@ -18,7 +18,7 @@
 
 ---
 
-## 📁 Structure du Dépôt & Rédacteur Obsidian
+## Structure du Dépôt & Rédacteur Obsidian
 
 Toute la documentation a été intégralement rédigée sous **Obsidian** en Markdown pur pour garantir un maillage d'informations fluide, propre et structuré.
 
@@ -26,7 +26,7 @@ Les writeups sont classés par dossiers correspondant aux **catégories du TOP 1
 
 $$\text{\`Category/Category-Difficulty-ChallengeName.md\`}$$
 
-### 🗂️ Arborescence des vulnérabilités documentées
+### Arborescence des vulnérabilités documentées
 
 ```text
 .
@@ -73,7 +73,7 @@ $$\text{\`Category/Category-Difficulty-ChallengeName.md\`}$$
 
 ---
 
-## 📝 Format standardisé des Writeups
+## Format standardisé des Writeups
 
 Chaque fichier de documentation (`.md`) suit une structure rigoureuse répondant aux exigences d'un rapport de pentest professionnel :
 
@@ -105,7 +105,7 @@ Chaque fichier de documentation (`.md`) suit une structure rigoureuse répondant
 
 ---
 
-## 🛠️ Outils & Technologies Utilisés
+## Outils & Technologies Utilisés
 
 * **Recon & Exploitation :** Burp Suite, Exegol, DevTools Browser.
 * **Analyse de Code & Scripting :** Python 3, Bash, CyberChef, etc
@@ -113,6 +113,6 @@ Chaque fichier de documentation (`.md`) suit une structure rigoureuse répondant
 
 ---
 
-## ⚠️ Avertissement / Disclaimer
+## Avertissement
 
 Ce dépôt est publié dans un cadre strictement pédagogique et de démonstration de compétences. Les solutions présentées ont été élaborées dans un environnement d'entraînement fermé et autorisé (*OWASP Juice Shop*).
