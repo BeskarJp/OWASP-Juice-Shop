@@ -3,7 +3,7 @@
 
 ## Présentation du Projet
 
-**Hack & Juice** est un projet de cybersécurité (module `G-SEC-200`) proposé par **Epitech** basé sur l'application vulnérable **OWASP Juice Shop**. L'objectif était de réaliser le pentest d'une application web moderne, d'identifier ses vulnérabilités et de rédiger une documentation technique complète pour chaque faille exploitée.
+**Hack & Juice** est un projet de cybersécurité basé sur l'application vulnérable **OWASP Juice Shop**. L'objectif était de réaliser le pentest d'une application web moderne, d'identifier ses vulnérabilités et de rédiger une documentation technique complète pour chaque faille exploitée.
 
 > **Résultat :** Notre duo a terminé **1ère du campus**.
 
@@ -115,5 +115,5 @@ Chaque fichier de documentation (`.md`) suit une structure rigoureuse répondant
 
 ## Licence & Avertissement
 
-Ce projet est sous licence [MIT](LICENSE).
+Ce projet est sous licence [MIT](LICENSE). <br>
 Ce dépôt est publié dans un cadre strictement pédagogique et de démonstration de compétences. Les solutions présentées ont été élaborées dans un environnement d'entraînement fermé et autorisé (*OWASP Juice Shop*).
